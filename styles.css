@@ -1,5 +1,5 @@
 .logo-picture {
-    display: flex;
+    mx-auto
 }
 
 
@@ -10,7 +10,6 @@ nav {
     
 nav a {
     color: #3498db;
-    text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s
@@ -59,7 +58,6 @@ nav a:hover {
 
 .container {
     display: flex;
-    justify-content: space-around;
 }
 
 .card {
@@ -68,11 +66,15 @@ nav a:hover {
     border-radius: 8px;
     margin: 0 20px;
     background-color: #fff;
-    flex: 1;
     
     
 }
 .card-body {
     padding: 20px;
     
+}
+
+.about {
+    /* adding padding to some spacing in between this section in the cards */
+    padding-top: 20px;
 }
